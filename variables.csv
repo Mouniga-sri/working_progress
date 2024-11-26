@@ -1,0 +1,65 @@
+VARIABLES,VALUES,OPTIONS
+abd_wall,Anterior Abdominal Wall/Anterolateral Abdominal Wall/Posterior Abdominal Wall/posterolateral abdominal wall/Subumbilical Region/Epigastric Region/Hypogastric Region/Flank Regions/Suprapubic Region/Right lower quadrant/left lower quadrant/Right upper quadrant/left upper quadrant,multiple choice
+bosniak,II/III/IIF/III/IV/V,single choice
+collateral,"periportal/anterior abdominal wall/periumbilical/perisplenic/gastroesophageal junction/retroperitoneal/perigastric/splenorenal/mesenteric/rectal and perirectal
+",multiple choice
+distended,distended/partially distended/moderately distended,single choice
+echos,fine/coarse/no echoes,single choice
+endometrium,anterior endometrial stripe/posterior endometrial stripe/fundal region/mid-myometrium/lateral wall of the uterus/cervical canal,single choice
+gb_location,"fundus/body/neck/cystic duct/anterior wall/posterior wall/lateral wall/medial wall
+",multiple choice
+herniated_content,fluid/omental fat/mesenteric fat/small bowel loops,multiple choice
+hydronephrosis,abrupt tapering/calculus,single choice
+level_1,mild/moderate/severe/gross/borderline/mild-moderate/moderate-severe,single choice
+level_2,mild/moderate/severe/gross/borderline/mild-moderate/moderate-severe,single choice
+liver_ecotexture,diffuse fatty infilteration/grade I fatty infilteration/grade I-II fatty infilteration/with mild corase ecotexture/and mild surface irregularity/normal in ecotecture,multiple choice
+lobe_1,right/left/caudate/quadrate,multiple choice
+lobe_2,right/left/caudate/quadrate,multiple choice
+location_1,upper/middle/lower/proximal right/distal/proximal/distal,multiple choice
+location_2,upper/middle/lower/proximal right/distal/proximal/distal,multiple choice
+measurement_1,_,input box
+measurement_2,_,input box
+measurement_3,_,input box
+measurement_4,_,input box
+mesenteric,right iliac fossa/left iliac fossa/peri-umbilical region/peri-aortic region/right paracolic region/left paracolic region/pre-aortic region/retroperitoneal spac,multiple choice
+nabothian,anteroir lip of cervix/posterior lip of cervix/anterior wall/posterior wall/lateral wall,single choice
+no_of_1,a/few/multiple/tiny,single choice
+no_of_2,a/few/multiple/tiny,single choice
+nodes,periumbilical region/right iliac fossa/left iliac fossa,multiple choice
+liver_size,normal in size/hepatomegaly,single choice
+presence,presence/absence,single choice
+rpc_grade,grade I/grade II/grade III/grade IV/grade I-II/grade II-III,single choice
+segment_1,II/III/IVA/IVB/V/VI/VII/VIII,multiple choice
+severity,mild/moderate/gross/grade I/borderline/moderate-gross,single choice
+side_1,right/left/bilateral,single choice
+side_2,right/left/bilateral,single choice
+spleen_pole,inferior pole/superior pole/inter polar region,multiple choice
+type_1,_,input box
+type_2,_,input box
+umbilical_type,umbilical/para umbilical/supra umbilical/infra umbilical,single choice
+urachus_location,bladder dome/midline/umbilicus,single choice
+urethra,proximal/midline,single choice
+uterus_location,anterior wall/posterior wall/submucosal anterior wall/intramural anterior wall/submucosal posterior wall/intramural posterior wall/right lateral wall/left lateral wall/anterolateral wall/posterolateral wall/fundus/right fundolateral wall/left fundolateral wall/cervical/anterior lip of cervical/posterior lip of cervical,single choice
+yes_no_1,yes/no,single choice
+yes_no_2,yes/no,single choice
+kidney_pole_1,upper/interpolar/lower,multiple choice
+kidney_pole_2,upper/interpolar/lower,multiple choice
+cyst_noted_side_of_adnexa,right/left/bilateral,single choice
+side_of_adjacent_ovary,right/left/bilateral,single choice
+infiltration,Periductal infiltration/Intraductal infiltration/No infiltration,single choice
+size_2,_,input box
+size_1,_,input box
+appendicealwallthickness,_,input box
+kidneyabsent_renalfossa,right/left/bilateral,single choice
+kidneyabsentrenalfossa,right/left/bilateral,single choice
+bulkykidney,right/left/bilateral,single choice
+right_kidneysize,_,input box
+left_kidneysize,_,input box
+visualizedovary,right/left/bilateral,single choice
+bulkyovary,right/left/bilateral,single choice
+right_ovarysize,_,input box
+right_ovaryvolume,_,input box
+left_ovarysize,_,input box
+left_ovaryvolume,_,input box
+largestlesion_notedlobe,right/left/caudate/quadrate,multiple choice
+all_lobe_withlesion,right/left/caudate/quadrate,multiple choice

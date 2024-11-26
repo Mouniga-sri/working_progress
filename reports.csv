@@ -1,0 +1,3500 @@
+PATHOLOGIES,PLACEHOLDER,OBSERVATION,IMPRESSION,VARIABLES,QUESTION
+acute appendicitis,RIF,Probe tenderness is seen in right iliac fossa. Dilated tubular non compressible aperistaltic tubular structure is seen in right iliac fossa – Likely appendix – shows a calibre of ~ _appendicealwallthickness mm showing associated inflammatory changes in the form of raised adjacent fat echogenicity.,Sonological features are likely in favour of acute appendicitis. Suggested clinical correlation.,appendicealwallthickness,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Acute Appendicitis""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""appendicealwallthickness"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the appendix (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+agenesis/aplasia,KIDNEYS,_kidneyabsentside kidney is not visualized in _kidneyabsent_renalfossa renal fossa/ along the line of ascent.,_kidneyabsentside kidney is not visualized in _kidneyabsent_renalfossa  renal fossa/ along the line of ascent- ? Agenesis.,"kidneyabsentside,kidneyabsent_renalfossa","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Agenesis/Aplasia""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""kidneyabsentside"",
+        ""value"": ""Side of the kidney not visualized:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""_kidneyabsent_renalfossa"",
+        ""value"": ""Location where the kidney is not visualized:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+anteriorly directed pelvis,KIDNEYS,_kidneyabsentside kidney is not visualized in _kidneyabsent_renalfossa renal fossa – seen in _kidneylocation – showing anteriorly directed pelvis.,_kidneyabsentside kidney is not visualized in _kidneyabsent_renalfossa renal fossa – seen in _kidneylocation – showing anteriorly directed pelvis.,"kidneyabsentside,kidneyabsent_renalfossa,kidneylocation","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Anteriorly Directed Pelvis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""kidneyabsentside"",
+        ""value"": ""Side of the kidney not visualized:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""kidneyabsent_renalfossa"",
+        ""value"": ""Location where the kidney is not visualized:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""kidneylocation"",
+        ""value"": ""Type of observation or position:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+appendix,RIF,Probe tenderness is seen in right iliac fossa. Tubular non compressible aperistaltic tubular structure is seen in right iliac fossa – Likely appendix – shows a calibre of ~ _appendicealwallthickness  mm – suggested clinical correlation.,,appendicealwallthickness,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Appendix""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""appendicealwallthickness"",
+    ""place_holder"": ""false"",
+    ""value"": ""Calibre of the appendix (mm)"",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+ascites,OTHER,_fluidlevel ascites noted.,,fluidlevel,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Ascites""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""fluidlevel"",
+    ""place_holder"": ""false"",
+    ""value"": ""Severity level of ascites noted"",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+atypical hemangioma,LIVER,A well-defined hypoechoic lesion measuring ~ _measurement_1 cm is seen in segment _segment_1 of _lobe_1 lobe of liver - ? Atypical hemangioma.,,"measurement_1,segment_1,lobe_1","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Atypical Hemangioma""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the hypoechoic lesion (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""multiple choice"",
+    ""key"": ""segment_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Segment of liver involved: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""multiple choice"",
+    ""key"": ""lobe_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Lobe of liver involved: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+autosomal dominant polycystic kidney disease (adpkd),KIDNEYS,"Both kidneys are enlarged in size showing diffuse heterogeneous echogenicities with numerous cysts of varying sizes replacing renal parenchyma. The cysts are anechoic with thin walls and no internal echoes.
+Right kidney measures ~_right_kidneysize cm.
+Left kidney measures ~_left_kidneysize cm.",Kidneys are bulky in size showing numerous cysts of varying sizes – replacing renal parenchyma as described ~ Likely in favour of Autosomal Dominant Polycystic Kidney Disease (ADPKD).,"right_kidneysize,left_kidneysize","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Autosomal Dominant Polycystic Kidney Disease (ADPKD)""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""right_kidneysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the right kidney (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""left_kidneysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the left kidney (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+bulky cervix,UTERUS,Cervix appears bulky in size and heterogeneous in echotexture.,Uterine cervix appears bulky in size and heterogeneous in echotexture – suggested clinical correlation.,,
+bulky kidney,KIDNEYS,"Bulky _bulkykidney kidney with normal in echotexture.
+Right kidney measures ~ _right_kidneysize cm.
+Left kidney measure ~ _left_kidneysize cm.",,"bulkykidney,right_kidneysize,left_kidneysize","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Bulky Kidney""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""bulkykidney"",
+    ""place_holder"": ""false"",
+    ""value"": ""Side of the bulky kidney: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""right_kidneysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the right kidney (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""left_kidneysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the left kidney (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+bulky ovary,OVARIES,"_visualizedovary ovary is visualized- normal in echotexture.
+Bulky _bulkyovary ovary.
+right ovary measures ~  _right_ovarysize cm  Vol ~  _right_ovaryvolume cc.
+left ovary measuring ~  _left_ovarysize cm  Vol ~ _left_ovaryvolume cc",,"visualizedovary,bulkyovary,right_ovarysize,right_ovaryvolume,left_ovarysize,left_ovaryvolume","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Bulky Ovary""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""visualizedovary"",
+    ""place_holder"": ""false"",
+    ""value"": ""Side of the normal ovary: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""bulkyovary"",
+    ""place_holder"": ""false"",
+    ""value"": ""Side of the bulky ovary: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""right_ovarysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the right ovary (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""right_ovaryvolume"",
+    ""place_holder"": ""false"",
+    ""value"": ""Volume of the right ovary (cc): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""left_ovarysize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the left ovary (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""left_ovaryvolume"",
+    ""place_holder"": ""false"",
+    ""value"": ""Volume of the left ovary (cc): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+bulky uterus,UTERUS,Bulky in size (~ _uterussize cm).,Bulky uterus.,uterussize,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Bulky Uterus""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""uterussize"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the uterus (cm)"",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+calcified fibroid,UTERUS,A hyperechoic focus measuring ~ _measurement_1 mm is seen along _uterus_location – Likely calcified fibroid.,Small calcified uterine fibroid.,"measurement_1,uterus_location","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Calcified Fibroid""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""place_holder"": ""false"",
+        ""value"": ""Size of the hyperechoic focus (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""uterus_location"",
+        ""place_holder"": ""false"",
+        ""value"": ""Location along the uterus: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]"
+cholecystolithiasis,GALL BLADDER,_distended distended at the time of scan showing _no_of_1 calculus measuring ~ _measurement_1 mm within.,Cholecystolithiasis with no evidence of cholecystitis.,"distended,no_of_1,measurement_1,distended","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Cholecystolithiasis""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""no_of_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Number of calculi observed: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the calculus (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""distended"",
+    ""place_holder"": ""false"",
+    ""value"": ""Gallbladder distension status at the time of scan: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+chronic cystitis,URINARY BLADDER,_distended showing diffuse wall thickening (~ _measurement_1 mm). _echos Internal echoes noted within.,Diffuse urinary bladder wall thickening showing _echos internal echoes ~ Likely in favor of chronic cystitis.,"distended,measurement_1,echos,presence","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Chronic Cystitis""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""distended"",
+    ""place_holder"": ""false"",
+    ""value"": ""Bladder distension status at the time of scan: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Bladder wall thickness (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""echos"",
+    ""place_holder"": ""false"",
+    ""value"": ""Internal echoes noted within: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""presence"",
+    ""place_holder"": ""false"",
+    ""value"": ""Dependent debris noted within: "",
+    ""followup"": ""true"",
+    ""to_followup"": {
+      ""presence"": {
+        ""additional_text"": ""Dependent debris noted.""
+      }
+    }
+  }
+]
+"
+chronic low grade pelvic inflammatory disease,OTHER,Minimal free fluid in pouch of Douglas.,Minimal free fluid in pouch of Douglas- Suggested clinical correlation to rule out chronic low grade pelvic inflammatory disease.,,
+coarse echotexture of liver,LIVER,_liver_size (~ _measurement_1 cm) with coarse echotexture.,coarse echotexture of liver.,"liver_size,measurement_1,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Coarse Echotexture of Liver""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Liver size (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""liver_size"",
+        ""value"": ""Is liver size normal?: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Presence of surface irregularity?: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""Shows mild surface irregularity.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+collaterals,PORTAL VEIN,Few _collateral collaterals noted.,Few _collateral collaterals noted.,collateral,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Collaterals""
+  },
+  {
+    ""type"": ""multiple choice"",
+    ""key"": ""collateral"",
+    ""place_holder"": ""false"",
+    ""value"": ""Collaterals: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+complex renal cortical cyst,KIDNEYS,complex renal cortical cyst noted in _side_1 kidney.,complex renal cortical cysts as described – Bosniak type _bosniak cysts,"side_1,no_of_1,measurement_1,kidney_pole_1,no_of_2,measurement_2,kidney_pole_2,bosniak,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Complex Renal Cortical Cyst""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of renal cortical cyst:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cyst in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the cyst is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the cyst (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""bosniak"",
+                    ""value"": ""Bosniak classification type:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""yes_no_1"",
+                    ""value"": ""Is there calcification within the cyst? :"",
+                    ""followup"": ""true"",
+                    ""to_followup"": { ""yes"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of _side_1 kidney showing multiple thin echogenic internal septations within and calcification within. ~ Likely in favour of Bosniak type _bosniak cyst.""
+                    },
+                    ""no"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of _side_1 kidney showing multiple thin echogenic internal septations within. ~ Likely in favour of Bosniak type _bosniak cyst.""
+                    }
+                }
+            }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cyst in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the cyst (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the left kidney where the cyst is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""bosniak"",
+                    ""value"": ""Bosniak classification type:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""yes_no_1"",
+                    ""value"": ""Is there calcification within the cyst? :"",
+                    ""followup"": ""true"",
+                    ""to_followup"": { ""yes"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of _side_1 kidney showing multiple thin echogenic internal septations within and calcification within. ~ Likely in favour of Bosniak type _bosniak cyst.""
+                    },
+                    ""no"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of _side_1 kidney showing multiple thin echogenic internal septations within. ~ Likely in favour of Bosniak type _bosniak cyst.""
+                    }
+                }
+            }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cyst in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the cyst in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the cyst is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_2"",
+                    ""value"": ""Number of cyst in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the cyst in left kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney where the cyst is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""bosniak"",
+                    ""value"": ""Bosniak classification type: "",
+                    ""followup"": ""true"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""yes_no_1"",
+                    ""value"": ""Is there calcification within the cyst? :"",
+                    ""followup"": ""true"",
+                    ""to_followup"": { ""yes"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of right kidney showing multiple thin echogenic internal septations within. _no_of_2 cysts measuring ~ _measurement_2 cm are seen in _kidney_pole_2 region of left kidney showing multiple thin echogenic internal septations within and calcification within. ~ Likely in favour of Bosniak type _bosniak cyst.""                    },
+                    ""no"": {
+                        ""additional_text"": ""_no_of_1 cyst measuring ~ _measurement_1 cm is seen in _kidney_pole_1 region of right kidney showing multiple thin echogenic internal septations within. _no_of_2 cysts measuring ~ _measurement_2 cm are seen in _kidney_pole_2 region of left kidney showing multiple thin echogenic internal septations within. ~ Likely in favour of Bosniak type _bosniak cyst.""                    }
+                    }
+                }
+            ]
+        }
+    }
+]"
+corpora amylacea calcifications,PROSTATE,Corpora amylacea calcifications noted.,,,
+cortical calcification,KIDNEYS,Cortical calcification is seen in _side_1 kidney.,,"side_1,measurement_1,kidney_pole_1,measurement_2,kidney_pole_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Cortical Calcification""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of cortical calcification:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calcification in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calcification is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calcification in left kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the left kidney where the calcification is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calcification in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calcification is located :"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the calcification in left kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney where the calcification is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. Measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. Measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+},
+                        ""lower"": {
+                            ""additional_text"":""Measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. Measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+}
+                    }
+                }
+            ]
+        }
+    }
+]"
+cystitis,URINARY BLADDER,_distended showing diffuse bladder wall thickening (~ _measurement_1 mm).,Diffuse urinary bladder wall thickening ~ Suggested clinical correlation in view of cystitis.,"distended,measurement_1,echos","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Cystitis""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""distended"",
+    ""place_holder"": ""false"",
+    ""value"": ""Bladder distension status at the time of scan: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Bladder wall thickness (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""echos"",
+    ""place_holder"": ""false"",
+    ""value"": ""Internal echoes noted within: "",
+    ""followup"": ""true"",
+    ""to_followup"": {
+      ""fine"": {
+        ""additional_text"": ""Fine internal echoes noted within.""
+      },
+      ""coarse"": {
+        ""additional_text"": ""Coarse internal echoes noted within.""
+      }
+    }
+  }
+]
+"
+diffuse adenomyosis,UTERUS,Bulky in size measuring ~ _measurement_1 cm showing diffuse heterogeneous echotexture with blurring of junctional zone.,"Bulky uterus with heterogeneous echotexture, showing blurring of junctional zone – suggested clinical correlation in view of diffuse uterine adenomyosis",measurement_1,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Diffuse Adenomyosis""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the uterus (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+dilated portal vein,PORTAL VEIN,Normal in course and dilated in calibre (~ _measurement_1 mm) – Shows maintained hepato-petal flow.,Dilated portal vein.,measurement_1,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Dilated Portal Vein""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Caliber of the portal vein (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+dj stent,URINARY BLADDER,DJ stent is seen on the _side_1 side.,,side_1,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""DJ Stent""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""side_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Side where DJ stent is seen: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+dominant follicle,OVARIES,A well-defined cystic lesion arising from _side_1 ovary ,_side_1 ovary showing a well-defined cystic focus as described– Likely dominant follicle,"measurement_1,side_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Dominant Follicle""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the ovary where the cystic lesion is seen: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the cystic lesion (cm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm is seen  – likely dominant follicle.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the cystic lesion (cm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm is seen  – likely dominant follicle.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the cystic lesion in right ovary(cm): "",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Measurement of the cystic lesion in left side (cm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm in right ovary and ~ _measurement_2 in left ovary   – likely dominant follicle.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+early inguinal hernia,OTHER,Mild prominence of _side_1 superfical inguinal ring with tranisent herniation of _herniated_content on cough impulse,Early left inguinal hernia - suggested clinial correlation.,"side_1,herniated_content,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Early Inguinal Hernia""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the inguinal ring showing prominence"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""herniated_content"",
+        ""value"": ""Content herniated through the inguinal ring"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+echogenic sludge(cbd),CBD,echogenic sludge noted within.,,,
+echogenic sludge(gall bladder),GALL BLADDER,echogenic sludge noted within.,,,
+edematous appearance of distal ileal loops,OTHER,Mild oedematous appearance of distal ileal loops noted.,Edematous appearance of distal ileal loops with associated inflammatory changes as described – suggested clinical correlation in view of infective etiology.,,
+edematous vuj,URINARY BLADDER,_distended at the time of scan showing oedematous _side_1 VUJ.,Edematous _side_1 VUJ~ Suggested clinical correlation in view of passed off calculus.,"distended,side_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Edematous VUJ""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""distended"",
+        ""value"": ""Distention of bladder: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the edematous VUJ"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+endometrial polyp,UTERUS,A focal hyperechogenicity measuring ~ _measurement_1 mm is seen along the _endometrium - ? polyp.,A focal hyperechogenicity along the _endometrium - ? Endometrial Polyp.,"measurement_1,endometrium","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Endometrial Polyp""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the hyperechogenicity (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""endometrium"",
+        ""value"": ""Location of the hyperechogenicity in the endometrium: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+enlarged mesenteric lymph nodes,OTHER,"Few/ multiple enlarged mesenteric lymph nodes noted, largest measuring ~ _measurement_1 mm in _mesenteric.",Enlarged mesenteric lymph nodes as described.,"measurement_1,mesenteric","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Enlarged Mesenteric Lymph Nodes""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""mesenteric"",
+        ""value"": ""Location of the enlarged lymph nodes in the mesentery: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+enlarged para aortic and mesenteric lymph nodes,OTHER,"Few enlarged para aortic and mesenteric lymph nodes, largest measuring ~ _measurement_1 mm in _mesenteric region.",Para aortic and mesenteric lymphadenopathy as described.,"measurement_1,mesenteric","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Para-aortic and Mesenteric Lymphadenopathy""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""mesenteric"",
+        ""value"": ""Region where the enlarged lymph nodes are located"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+epigastric hernia,OTHER,Anterior abdominal wall defect measuring ~ _measurement_1 cm is seen in epigastric region showing herniation of _herniated_content on cough,Anterior abdominal wall defect in epigastric region showing herniation of omental fat as decribed ~ Consistent with epigastric hernia.,"measurement_1,herniated_content,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Epigastric Hernia""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the defect (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""herniated_content"",
+        ""value"": ""Content herniated through the defect: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Herniation extended into the subcutaneous plane?: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {""additional_text"": ""Extending into subcutaneous plane.""},
+            ""no"": ""NA""
+        }
+    }
+]
+"
+epiploic appendigitis,OTHER,Ill-defined inflammatory changes are seen in _side_1 iliac fossa - ? Epiploic appendigitis.,Ill-defined inflammatory changes in _side_1 iliac fossa - ? Epiploic appendigitis.,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Epiploic Appendigitis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the iliac fossa where inflammatory changes are observed: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+excessive bowel gas,OTHER,excessive bowel gas noted.,,,
+excessive gaseous abdomen,OTHER,excessive gaseous abdomen noted.,,,
+exophytic renal cortical,KIDNEYS,_side_1 exophytic renal cortical noted.,,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Extra Renal Pelvis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the extra renal pelvis"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+fatty infiltration of liver,LIVER,Normal in size (~ _measurement_1 cm) with diffuse fatty infiltration.,Diffuse fatty infiltration of liver.,measurement_1,"[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Diffuse Fatty Infiltration of Liver""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the Liver (cm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+free fluid in pouch of doughlas,OTHER,Minimal free fluid in pouch of doughlas,Minimal free fluid in pouch of doughlas,,
+gall bladder - not visuaized,GALL BLADDER,Gall Bladder- Not visualized - ? Contracted,,,
+gall bladder polyp,GALL BLADDER,"showing few non dependent hyperechoic foci along the walls, largest measuring ~ _measurement_1 mm along the _gb_location – likely suggestive of polyps.",Gall bladder shows few non-dependent hyperechoic foci along the walls as described – Likely suggestive of Gall bladder polyps.,"measurement_1,gb_location","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Gall Bladder Polyp""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest hyperechoic focus (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""gb_location"",
+        ""value"": ""Location of the hyperechoic focus in the gall bladder: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+gall bladder wall edema,GALL BLADDER,_distended at the time of scan showing edematous walls.,Gall bladder shows edematous walls ~ Suggested clinical correlation.,distended,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Gall Bladder Wall Edema""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""distended"",
+        ""value"": ""Distention of Gall bladder: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+hemangioma-spleen,SPLEEN,A well-defined homogeneously hyperechoic lesion measuring ~ _measurement_1 cm is seen in _spleen_pole region of spleen- Likely suggestive of hemangioma.,Splenic hemangioma as described.,"measurement_1,spleen_pole","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Splenic Hemangioma""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the lesion (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""spleen_pole"",
+        ""value"": ""Region of the spleen where the lesion is located: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+hemorrhagic ovarian cyst,OVARIES,"A well-defined cystic lesion seen in _side_1 adnexa showing few echogenic internal septations and fine internal echoes within,",A well-defined cystic lesion in _side_1 adnexa showing few echogenic internal septations and fine internal echoes within. To consider possibility of hemorrhagic ovarian cyst.,"side_1,measurement_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hemorrhagic Ovarian Cyst""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""place_holder"": ""false"",
+        ""value"": ""Side of the adnexa with cystic lesion:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""place_holder"": ""false"",
+                    ""value"": ""Size of the cystic lesion in right adnexa (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 cm.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""place_holder"": ""false"",
+                    ""value"": ""Size of the cystic lesion in left adnexa (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 cm.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""place_holder"": ""false"",
+                    ""value"": ""Size of the cystic lesion in right adnexa (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the cystic lesion in left adnexa (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""Measuring ~ _measurement_1 cm in right adnexa and measuring ~ _measurement_2 cm in left adnexa.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+hepatic calcified granuloma,LIVER,A calcified granuloma measuring ~ _measurement_1 mm is seen in _lobe_1 lobe.,Hepatic calcifications - ? Calcified granuloma,"measurement_1,lobe_1","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Hepatic Calcified Granuloma""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of the calcified granuloma (mm): "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""multiple choice"",
+    ""key"": ""lobe_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Lobe of the liver where granuloma is seen: "",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+hepatic hemangioma,LIVER,A well-defined homogenously hyperechoic lesion measuring ~ _measurement_1 cm is seen in _lobe_1 lobe – Likely suggestive of hemangioma.,Hepatic hemangioma as described.,"measurement_1,lobe_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hepatic Hemangioma""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the lesion (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""lobe_1"",
+        ""value"": ""Lobe of the liver where the lesion is located: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+hepatic metastasis,LIVER,"Showing multiple well-defined hyperechoic lesions of varying sizes in _all_lobe_withlesion lobes, largest measuring ~ _measurement_1 cm in _largestlesion_notedlobe lobe – Likely suggestive of hepatic metastasis.",Liver showing multiple well-defined hyperechoic lesions of varying sizes in _all_lobe_withlesion lobes – Likely in favour of hepatic metastasis.,"all_lobe_withlesion,measurement_1,largestlesion_notedlobe","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hepatic Metastasis""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""all_lobe_withlesion"",
+        ""value"": ""Lobes of the liver showing hyperechoic lesions: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lesion (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""largestlesion_notedlobe"",
+        ""value"": ""Lobe of the liver where the largest lesion is located: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+hepatomegaly,LIVER,_level_1 hepatomegaly (~ _measurement_1 cm) _liver_ecotexture.,_level_1 hepatomegaly.,"level_1,measurement_1,liver_ecotexture","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hepatomegaly""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""level_1"",
+        ""value"": ""Level of hepatomegaly"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Liver size (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""liver_ecotexture"",
+        ""value"": ""Liver echotexture : "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+hydronephrosis,KIDNEYS,_side_1 _level_1 hydronephrosis noted with _hydronephrosis corresponding to pelvi-ureteric junction.,_side_1 _level_1 hydronephrosis noted with _hydronephrosis corresponding to pelvi-ureteric junction.,"side_1,level_1,hydronephrosis,measurement_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hydronephrosis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of hydronephrosis"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""level_1"",
+        ""value"": ""Level of hydronephrosis"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""hydronephrosis"",
+        ""value"": ""Type of hydronephrosis"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""calculus"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus (mm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 mm.""
+                        }
+                    }
+                }
+            ],
+            ""abrupt tapering"": ""__mandate__""
+        }
+    }
+]"
+hydroureteronephrosis,KIDNEYS,_side_1 _severity hydroureteronephrosis noted.,_side_1 _severity hydroureteronephrosis noted.,"side_1,severity,yes_no_1,measurement_1,measurement_2,measurement_3,measurement_4","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Hydroureteronephrosis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of hydroureteronephrosis"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""severity"",
+        ""value"": ""Severity of hydroureteronephrosis"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Presence of blunting of calyces and flattening of papillae, and parenchymal thinning?: "",
+        ""followup"": ""true"",
+        ""to_followup"": { 
+            ""yes"":[ 
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Right ~ AP diameter (mm): "",
+                    ""followup"": ""fasle"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Right ~ Minimal parenchymal thickness (mm): "",
+                    ""followup"": ""fasle"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_3"",
+                    ""value"": ""Left ~ AP diameter (mm): "",
+                    ""followup"": ""fasle"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_4"",
+                    ""value"": ""Left ~ Minimal parenchymal thickness (mm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_4"" : {""additional_text"": ""blunting of calyces and flattening of papillae – showing associated parenchymal thinning. Right ~ AP diameter ~ _measurement_1 mm, Minimal parenchymal thickness ~ _measurement_2 mm. Left ~ AP diameter ~ _measurement_3 mm, Minimal parenchymal thickness ~ _measurement_4 mm.""}
+                    }
+                }
+            ]},
+            ""no"":""__mandate__""
+            }]"
+ilio-caecal intussusception,OTHER,Bowel in bowel appearance is seen in right ilio-lumbar region involving ilium and caecum giving target appearance showing mesenteric fat and enlarged lymph nodes as lead point.,Features are likely in favour of Ilio-caecal intussusception. Suggested clinical correlation.,,
+incisional hernia,OTHER,"A defect measuring ~ _measurement_1 cm is seen along the _abd_wall, showing associated herniation of _herniated_content~ Likely in favour of incisional hernia.",Incisional hernia as described.,"measurement_1,abd_wall,herniated_content","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Incisional Hernia""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the defect (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""abd_wall"",
+        ""value"": ""Abdominal wall location showing the defect"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""herniated_content"",
+        ""value"": ""Content herniated through the defect"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+increased peristalsis,OTHER,Distal ileal loops appear mildly oedematous showing increased peristalsis.,Distal ileal loops appear mildly oedematous showing increased peristalsis- suggested clinical correlation in view of active infective aetiology.,,
+inguinal lymphadenitis,OTHER,An enlarged _side_1 inguinal lymph node noted measuring ~ _measurement_1 cm showing associated significant inflammatory changes in the form of raised adjacent fat echogenicity.,_side_1 inguinal lymphadenitis.,"side_1,measurement_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Inguinal Lymphadenitis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the inguinal lymph node:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the lymph node (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+interloopal free fluid,OTHER,Minimal interloopal free fluid noted.,Minimal interloopal free fluid.,,
+intravesical segment calculus,URINARY BLADDER,"_distended at the time of scan.
+A calculus measuring ~ _measurement_1 mm is seen in intra-vesical segment of distal most _side_1 ureter.",A calculus in intra-vesical segment of distal most _side_1 ureter.,"distended,measurement_1,side_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Intravesical Segment Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""distended"",
+        ""value"": ""Bladder distention: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the calculus (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the ureter involved: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+iucd device,UTERUS,IUCD device noted insitu.,,,
+lipoma,OTHER,_no_of_1 small subcutaneous lipomas are seen in subcutaneous plane of _abd_wall.,_abd_wall lipomas as described,"no_of_1,abd_wall","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Lipoma""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""no_of_1"",
+        ""value"": ""Number of small subcutaneous lipomas:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""abd_wall"",
+        ""value"": ""Location of the lipomas in the subcutaneous plane:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+minimal pleural effusion,OTHER,_side_1 minimal pleural effusion with subsegmental collapse of underlying lung.,minimal pleural effusion with subsegmental collapse of underlying lung – suggested clinical correlation.,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Minimal Pleural Effusion""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the pleural effusion:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+nabothian gland cyst,UTERUS,A well-defined cystic lesion measuring ~ _measurement_1 mm is seen along the _nabothian ~ Likely suggestive of Nabothian gland cyst.,Nabothian gland cysts as described.,"measurement_1,nabothian","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Nabothian Gland Cyst""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the cystic lesion (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""nabothian"",
+        ""value"": ""Location of the cystic lesion:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+non obstructive renal calculus,KIDNEYS,Non obstructive renal calculus noted in _side_1 kidney.,non obstructive _side_1 renal calculus.,"side_1,measurement_1,no_of_1,kidney_pole_1,no_of_2,measurement_2,kidney_pole_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Non-Obstructive Renal Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of renal calculus:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the left kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calculus is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_2"",
+                    ""value"": ""Number of calculi in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the calculus in left kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+ovarian origin,OVARIES,A well-defined cystic lesion measuring ~ _measurement_1 cm is seen in _side_1 adnexa – showing no obvious internal echoes / septations within,Left adnexal cystic lesion as described – Likely of ovarian origin- suggested clinical correlation.,"measurement_1,side_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Ovarian Origin""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the cystic lesion (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the adnexa where the lesion is located"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+para aortic and mesenteric lymphadenopathy,OTHER,"Few/ multiple enlarged para aortic and mesenteric lymph nodes noted, largest measuring ~ _measurement_1 cm in _mesenteric.",Para aortic and mesenteric lymphadenopathy as described.,"measurement_1,mesenteric","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Para Aortic and Mesenteric Lymphadenopathy""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""mesenteric"",
+        ""value"": ""Location of the largest lymph node"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+para ovarian cyst,OVARIES,A well-defined cystic lesion measuring ~ _measurement_1 cm is seen in _cyst_noted_side_of_adnexa adnexa – adjacent to _side_of_adjacent_ovary ovary.,A well-defined cystic lesion seen adjacent to _side_of_adjacent_ovary ovary – Likely para ovarian cyst.,"measurement_1,cyst_noted_side_of_adnexa,side_of_adjacent_ovary","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Para Ovarian Cyst""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the cyst (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""cyst_noted_side_of_adnexa"",
+        ""value"": ""Side of the adnexa where the cyst is seen: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_of_adjacent_ovary"",
+        ""value"": ""Side of the ovary adjacent to the cyst: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+para pelvic cyst,OTHER,A well-defined cystic lesion measuring ~ _measurement_1 cm is seen adjacent to _side_1 renal pelvis – Likely para pelvic cyst.,,"measurement_1,side_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Para Pelvic Cyst""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the cyst (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the renal pelvis where the cyst is adjacent to: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+pcos pattern,OVARIES,"_side_1 ovaries show small peripherally arranged follicles with central echogenic stroma
+Left ovary measures ~ _measurement_1 cm  Vol ~ _measurement_2 cc.
+Right ovary measures ~ _measurement_3 cm  Vol ~ _measurement_4 cc.",_side_1 ovaries show small peripherally arranged follicles with central echogenic stroma – Suggested clinical / lab correlation in view of PCOS pattern.,"side_1,measurement_1,measurement_2,measurement_3,measurement_4","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""PCOS Pattern""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the ovaries"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the left ovary (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_2"",
+        ""value"": ""Volume of the left ovary (cc): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_3"",
+        ""value"": ""Measurement of the right ovary (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_4"",
+        ""value"": ""Volume of the right ovary (cc): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]"
+pelvi-caliectasis,KIDNEYS,_side_1 kidney shows caliectasis.,_side_1 kidney shows caliectasis,"side_1,kidney_pole_1,kidney_pole_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Pelvi-Caliectasis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the kidney showing caliectasis:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [{
+                ""type"": ""multiple choice"",
+                ""key"": ""kidney_pole_1"",
+                ""value"": ""Pole of the right kidney involved:"",
+                ""followup"": ""true"",
+                ""to_followup"": {
+                    ""upper"": {
+                        ""additional_text"": ""in upper polar region.""
+                    },
+                    ""interpolar"": {
+                        ""additional_text"": ""in inter polar region.""
+                    },
+                    ""lower"": {
+                        ""additional_text"": ""in lower polar region.""
+                    }
+                }
+            }],
+            ""left"": [{
+                ""type"": ""multiple choice"",
+                ""key"": ""kidney_pole_1"",
+                ""value"": ""Pole of the left kidney involved:"",
+                ""followup"": ""true"",
+                ""to_followup"": {
+                    ""upper"": {
+                        ""additional_text"": ""in upper polar region.""
+                    },
+                    ""interpolar"": {
+                        ""additional_text"": ""in inter polar region.""
+                    },
+                    ""lower"": {
+                        ""additional_text"": ""in lower polar region.""
+                    }
+                }
+            }],
+            ""bilateral"": [
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney involved:"",
+                    ""followup"": ""fasle"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney involved:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""in _kidney_pole_1 region of the right kidney and _kidney_pole_2 region of left kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""in _kidney_pole_1 region of the right kidney and _kidney_pole_2 region of left kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""in _kidney_pole_1 region of the right kidney and _kidney_pole_2 region of left kidney.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+pelvic inflammatory disease,UTERUS,"heterogeneous in echotexture.
+Minimal free fluid in pouch of Doughlas.",Mild heterogeneous echotexture of uterus with minimal free fluid in pouch of Doughlas- Suggested clinical in view of pelvic inflammatory disease.,,
+phyrigian cap,GALL BLADDER,Phyrigian cap noted.,,,
+post-void residual urine,URINARY BLADDER,Prevoid ~ _measurement_1 cc       Post void ~ _measurement_2 cc.,Significant post void residual urine.,"measurement_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Post-Void Residual Urine""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Prevoid urine volume (cc):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_2"",
+        ""value"": ""Post-void urine volume (cc):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prominence of renal pelvis,KIDNEYS,Mild prominence of _side_1 renal pelvis noted.,Mild prominence of _side_1 renal pelvis.,"side_1,measurement_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominence of Renal Pelvis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of renal pelvis prominence:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""AP diameter of the right kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""AP diameter measures ~ _measurement_1 mm.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""AP diameter of the left kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""AP diameter measures ~ _measurement_1 mm.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""AP diameter of the right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""AP diameter of the left kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""Right kidney: AP diameter measures ~ _measurement_1 mm. Left kidney: AP diameter measures ~ _measurement_2 mm.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+prominent cbd,CBD,Normal in course and prominent in calibre (~ _measurement_1 mm).,Prominent CBD with echogenic sludge.,"measurement_1,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent CBD""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the CBD (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Presence of echogenic sludge within the CBD:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""– showing echogenic sludge within.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+prominent endometrial thickness,UTERUS,ET~ _measurement_1 mm- prominent.,Prominent uterine endometrial thickness – suggested clinical correlation.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent Endometrial Thickness""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the endometrial thickness (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prominent hepatic veins,LIVER,Hepatic veins and intra hepatic IVC appear prominent in calibre.,"Hepatic veins and intra hepatic IVC appear prominent in calibre – suggested clinical / Echo correlation.
+",,
+prominent mesenteric lymph nodes,OTHER," Few prominent mesenteric lymph nodes noted, largest measuring ~ _measurement_1 mm in peri umbilcal region",,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent Mesenteric Lymph Nodes""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]"
+prominent para aortic and mesenteric lymph nodes,PARA AORTIC AREA,"Few prominent para aortic and mesenteric lymph nodes noted, largest measuring~ _measurement_1 mm in _nodes region.",Prominent para aortic and mesenteric lymph nodes as described.,"measurement_1,nodes","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent Para-Aortic and Mesenteric Lymph Nodes""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""nodes"",
+        ""value"": ""Region where the largest lymph node is located:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prominent portal vein,PORTAL VEIN,Normal in course and prominent in calibre (~ _measurement_1 mm),Prominent portal vein.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent Portal Vein""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the portal vein (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prominent splenic vein,SPLEEN,Prominent splenic vein noted (~ _measurement_1 mm).,,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prominent Splenic Vein""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the splenic vein (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prostatitis,PROSTATE,Bulky in size (Vol~ _measurement_1 cc) and heterogeneous in echotexture.,Bulky prostate showing heterogeneous echotexture ~? Prostatitis.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prostatitis""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Volume of the prostate (cc):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+prostatomegaly,PROSTATE,_severity prostatomegaly (Vol~ _measurement_1 cc) with normal echotexture.,_severity prostatomegaly.,"severity,measurement_1,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Prostatomegaly""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""severity"",
+        ""value"": ""Severity of prostatomegaly"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Volume of the prostate (cc): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Is post-void residual urine present?: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""with significant post void residual urine.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+puj calculus,KIDNEYS,A calculus noted in _side_1,_side_1 PUJ calculus showing associated hydronephrosis.,"side_1,measurement_1,measurement_2,level_1,kidney_pole_1,kidney_pole_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""PUJ Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of PUJ calculus:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydronephrosis in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus in right kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": { 
+                        ""measurement_1"":{
+                        ""additional_text"": ""Measuring ~ _measurement_1 mm is seen corresponding to _side_1 pelvi-ureteric junction resulting in upstream _level_1 hydronephrosis.""
+                    }
+                }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydronephrosis in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus in left kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": { 
+                        ""measurement_1"":{
+                        ""additional_text"": ""Measuring ~ _measurement_1 mm is seen corresponding to _side_1 pelvi-ureteric junction resulting in upstream _level hydronephrosis.""
+                    }
+                }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydronephrosis in both kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the calculus in left kidney (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"":{
+                            ""additional_text"":""Measuring ~ _measurement_1 mm is seen in right kidney corresponding to right pelvi-ureteric junction and measuring ~ _measurement_2 mm is seen in left kidney corresponding to left pelvi-ureteric junction resulting in upstream _level_1 hydronephrosis.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+puj obstruction,KIDNEYS,"_side_1 kidney is enlarged in size. Right kidney measuring ~ _measurement_1 cm, left kidney ~ _measurement_3 cm showing _level_1 hydronephrosis leading to blunting of calyces, flattening of papillae and significant parenchymal thinning (~ _measurement_2 mm). Coarse internal echoes and dependent debris noted within the pelvis.
+Abrupt narrowing is seen corresponding to PUJ with non-visualization of _location_1 ureter - ? Stricture.","_side_1 kidney is enlarged in size measuring ~ _measurement_1 cm showing _level hydronephrosis leading to blunting of calyces, flattening of papillae and significant parenchymal thinning - likely secondary to PUJ obstruction.","side_1,measurement_1,measurement_3,level_1,measurement_2,location_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""PUJ Obstruction""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the kidney:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Size of the right kidney (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_3"",
+        ""value"": ""Size of the left kidney (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""level_1"",
+        ""value"": ""Level of hydronephrosis:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_2"",
+        ""value"": ""Measurement of parenchymal thinning (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""location_1"",
+        ""value"": ""Location of non-visualized ureter:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+puj stricture,KIDNEYS,_side_1 kidney showing _level_1 hydronephrosis showing abrupt narrowing corresponding to pelvi-ureteric junction.,"_side_1 kidney showing _level_1 hydronephrosis showing abrupt narrowing corresponding to pelvi-ureteric junction - ? PUJ stricture. 
+Suggested CT Urogram correlation.","side_1,level_1,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""PUJ Stricture""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the kidney:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""level_1"",
+        ""value"": ""Level of hydronephrosis:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Is there associated parenchymal thinning?"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""There is associated significant parenchymal thinning.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+raised renal cortical echotexture,KIDNEYS,_side_1 kidney(s) are normal in size with mild raised cortical echotexture.,_side_1 mild raised renal cortical echotexture – suggested RFT correlation.,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Raised Renal Cortical Echotexture""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""place_holder"": ""false"",
+        ""value"": ""Select the side of the kidney(s) involved: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+rectum wall thickening,OTHER,Heterogeneously hyperechoic circumferential wall thickening (having a maximum thickness of ~ _measurement_1 cm) is seen involving proximal rectum.,Heterogeneously hyperechoic circumferential wall thickening involving proximal rectum – suggested CECT abdomen and pelvis for further evaluation.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Rectum Wall Thickening""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Maximum thickness of the wall (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+reflux of saphano-femoral junction,OTHER,Mild reflux of Saphano-femoral junction (SFJ) noted _side_1 side.,,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Reflux of Saphano-Femoral Junction""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of reflux noted:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+renal calculus,KIDNEYS,"_side_1 renal calculus, ",_side_1 renal calculi.,"side_1,no_of_1,measurement_1,kidney_pole_1,no_of_2,measurement_2,kidney_pole_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Renal Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of renal calculus:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the left kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of _side_1 kidney.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of calculi in right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the calculus in right kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the calculus is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_2"",
+                    ""value"": ""Number of calculi in left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the calculus in left kidney (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney where the calculus is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 calculus measuring ~ _measurement_1 mm is seen in _kidney_pole_1 region of right kidney. _no_of_2 calculus measuring ~ _measurement_2 mm is seen in _kidney_pole_2 region of left kidney.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+renal papillary tip calcifications,KIDNEYS,_side_1 renal papillary tip calcifications noted.,,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Renal Papillary Tip Calcifications""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the renal papillary tip calcifications:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+renal parenchymal changes,KIDNEYS,_side_1 kidneys are normal in size showing _rpc_grade renal parenchymal changes,_side_1 kidneys are normal in size showing _rpc_grade renal parenchymal changes-Suggested RFT correlation.,"side_1,rpc_grade","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Renal Parenchymal Changes""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the kidney involved:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""rpc_grade"",
+        ""value"": ""Grade of renal parenchymal changes"",
+        ""followup"": ""true"",
+        ""to_followup"": [
+            {
+                ""grade II"": {
+                    ""additional_text"": ""with blurring of cortico-medullary differentiation.""
+                },
+                ""grade III"": {
+                    ""additional_text"": ""showing loss of cortico-medullary differentiation.""
+                },
+                ""grade IV"": {
+                    ""additional_text"": ""with severe loss of cortico-medullary differentiation and marked thinning of renal parenchyma.""
+                },
+                ""grade I"": ""__mandate__""
+            }
+        ]
+    }
+]"
+seedling uterine fibroid,UTERUS,A small seedling fibroid noted measuring ~ _measurement_1 mm at the _uterus_location.,Small _uterus_location seedling uterine fibroid,"measurement_1,uterus_location,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Seedling Uterine Fibroid""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the fibroid (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""uterus_location"",
+        ""value"": ""Location of the fibroid in the uterus:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Presence of calcification:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""showing calcifications within.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+siderotic nodule,LIVER,Showing coarse echotexture and surface nodularity. Multiple tiny hyperechoic foci are seen diffusely scattered across hepatic parenchyma ~ Siderotic /regenerative nodules.,Coarse echotexture and surface nodularity. Multiple tiny hyperechoic foci are seen diffusely scattered across hepatic parenchyma ~ Siderotic /regenerative nodules.,,
+simple hepatic cyst,LIVER,A well-defined thin walled cystic lesion noted in _lobe_1 lobe measuring ~ _measurement_1 cm ~ Likely in favour of simple hepatic cyst.,A well-defined thin walled cystic lesion noted in _lobe_1 lobe measuring ~ _measurement_1 cm ~ Likely in favour of simple hepatic cyst.,"lobe_1,measurement_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""simple hepatic cyst""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""lobe_1"",
+        ""value"": ""cyst noted lobe in liver:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Size of the cyst (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+
+]
+"
+simple ovarian cyst,OVARIES,A well-defined cystic lesion seen in _side_1 adnexa.,_side_1 adnexal cystic lesion as described – Likely simple ovarian cyst.,"side_1,measurement_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Simple Ovarian Cyst""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the ovarian cyst:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm. showing no obvious internal septations/echoes within. Left ovary - normal in size and echotexture.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm. showing no obvious internal septations/echoes within. Right ovary - normal in size and echotexture.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the right lesion (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the left lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm in right adnexa and measuring ~ _measurement_2 cm in left adnexa. showing no obvious internal septations/echoes within.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+simple prostatic cyst,PROSTATE,Simple prostatic cyst measuring ~ _measurement_1 mm is seen in midline.,,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Simple Prostatic Cyst""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Size of the cyst (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+simple renal cortical cyst,KIDNEYS,simple renal cortical cyst  noted in _side_1 kidney.,simple renal cortical cysts as described – Bosniak type _bosniak cysts,"side_1,no_of_1,measurement_1,kidney_pole_1,no_of_2,measurement_2,kidney_pole_2,bosniak","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Simple Renal Cortical Cyst""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the renal cortical cyst:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cysts in the right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the largest cyst is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in upper pole.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in interpolar region.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in lower pole.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cysts in the left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the left kidney where the largest cyst is located:"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in upper pole.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in interpolar region.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in _side_1 kidney, largest measuring ~ _measurement_1 cm in lower pole.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_1"",
+                    ""value"": ""Number of cysts in the right kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst in the right kidney (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_1"",
+                    ""value"": ""Pole of the right kidney where the largest cyst is located:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""no_of_2"",
+                    ""value"": ""Number of cysts in the left kidney:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the largest cyst in the left kidney (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""kidney_pole_2"",
+                    ""value"": ""Pole of the left kidney where the largest cyst is located :"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""upper"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in right kidney, largest measuring ~ _measurement_1 cm in _kidney_pole_1 pole. _no_of_2 cortical cysts are seen in left kidney, largest measuring ~ _measurement_2 cm in _kidney_pole_2 pole.""
+                        },
+                        ""interpolar"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in right kidney, largest measuring ~ _measurement_1 cm in _kidney_pole_1 pole. _no_of_2 cortical cysts are seen in left kidney, largest measuring ~ _measurement_2 cm in _kidney_pole_2 pole.""
+                        },
+                        ""lower"": {
+                            ""additional_text"": ""_no_of_1 cortical cysts are seen in right kidney, largest measuring ~ _measurement_1 cm in _kidney_pole_1 pole. _no_of_2 cortical cysts are seen in left kidney, largest measuring ~ _measurement_2 cm in _kidney_pole_2 pole.""
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""bosniak"",
+        ""value"": ""Bosniak classification type for the cysts: "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]"
+splenomegaly,SPLEEN,_level_1 splenomegaly (~_measurement_1 cm) with normal echotexture.,_level_1 splenomegaly.,"level_1,measurement_1","[
+  {
+    ""type"": ""heading"",
+    ""key"": """",
+    ""value"": ""Splenomegaly""
+  },
+  {
+    ""type"": ""single choice"",
+    ""key"": ""level_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Level of splenomegaly"",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  },
+  {
+    ""type"": ""input box"",
+    ""key"": ""measurement_1"",
+    ""place_holder"": ""false"",
+    ""value"": ""Size of splenomegaly (cm)"",
+    ""followup"": ""false"",
+    ""to_followup"": ""NA""
+  }
+]
+"
+subcentimetric mesenteric lymph nodes,RIF,"Few subcentimetric mesenteric lymph nodes noted, largest measuring ~ _measurement_1 mm in right iliac fossa.",,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Subcentimetric Mesenteric Lymph Nodes""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+subcentimetric para aortic and mesenteric lymph nodes,PARA AORTIC AREA,"Few subcentimetric para aortic and mesenteric lymph nodes noted, largest measuring ~ _measurement_1 mm in peri umbilical region.",,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Subcentimetric Para-Aortic and Mesenteric Lymph Nodes""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the largest lymph node (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+subserosal fibroid,UTERUS,A well-defined hypoechoic lesion measuring ~ _measurement_1 cm is seen along the _uterus_location – Likely subserosal fibroid.,_uterus_location subserosal fibroid as described.,"measurement_1,uterus_location","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Subserosal Fibroid""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the fibroid (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""uterus_location"",
+        ""value"": ""Location of the fibroid along the uterus:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+thinning of abdominal wall,OTHER,Mild diffuse thinning of _location_1 anterior abdominal wall with no obvious focal defect.,,location_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Thinning of Abdominal Wall""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""location_1"",
+        ""value"": ""Location of the thinning in the anterior abdominal wall:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+trabaculations,URINARY BLADDER,Few small out-pouchings noted through the bladder wall – ? trabaculations.,,,
+tubo-ovarian cystic complex,OVARIES,A well-defined thin walled loculated cystic lesion seen in _side_1 adnexa,_side_1 adnexal cystic lesion showing thin internal septations as described – Likely tubo-ovarian cystic complex.,"side_1,measurement_1,measurement_2,yes_no_1,echos","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""tubo-ovarian cystic complex""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the lesion:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm, showing thin incomplete internal septations within. left ovary are not separately visualized.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm, showing thin incomplete internal septations within. right ovary are not separately visualized.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the right lesion (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the left lesion (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 cm in right adnexa, and ~ _measurement_2 cm in left adnexa, showing thin incomplete internal septations within.""
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Does the lesion extend to the uterus?"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": "" Lesion extending posterior to the uterus.""
+            },
+            ""no"": {
+                ""additional_text"": ""__mandate__""
+            }
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""echos"",
+        ""value"": ""Is the lesion showing coarse or fine echoes within?"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""coarse"": {
+                ""additional_text"": ""showing coarse internal echoes within.""
+            },
+            ""fine"": {
+                ""additional_text"": ""showing fine internal echoes within.""
+            },
+            ""no echoes"": ""__mandate__""
+        }
+    }
+]"
+tubo-ovarian endometriotic complex,OVARIES,Loculated cystic lesions are seen in _side_1 adnexa showing incomplete internal echogenic septations,A thick walled loculated cystic lesion in _side_1 adnexa as described – To consider possibility of tubo-ovarian endometriotic complex.,"side_1,measurement_1,measurement_2,yes_no_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Tubo-Ovarian Endometriotic Complex""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the adnexa where lesions are seen:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""with largest cyst measuring ~ _measurement_1 cm – showing coarse internal echoes within.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""largest cyst measuring ~ _measurement_1 cm – showing coarse internal echoes within.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Size of the largest cyst on the right (cm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Size of the largest cyst on the left (cm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": "" largest cyst measuring ~ _measurement_1 cm in right adnexa and in left adnexa with largest cyst measuring ~ _measurement_2 cm – showing coarse internal echoes within.""
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Does the lesion extend to the uterus?: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""extending posterior to the uterus.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]"
+umbilical hernia,OTHER,Anterior abdominal wall defect measuring ~ _measurement_1 mm is seen at the umbilicus showing herniation of _herniated_content as content ~ Likely suggestive of _umbilical_type hernia.,_umbilical_type hernia as described.,"measurement_1,herniated_content,yes_no_1,yes_no_2,umbilical_type","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Umbilical Hernia""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the abdominal wall defect (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""herniated_content"",
+        ""value"": ""Content of the herniation:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""umbilical_type"",
+        ""value"": ""Type of umbilical hernia:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Are there inflammatory changes of the herniated fat?"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""Minimal inflammatory changes of herniated fat noted.""
+            },
+            ""no"": ""__mandate__""
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_2"",
+        ""value"": ""Is there a feature of incarceration?"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""Feature of incarceration.""
+            },
+            ""no"": ""__mandate__""
+        }
+    }
+]
+"
+uncomplicated inguinal hernia,OTHER,A defect measuring ~ _measurement_1 mm is seen corresponding to _side_1 superficial inguinal ring – showing herniation of _herniated_content.,"_side_1 incomplete uncomplicated inguinal hernia as described.
+","measurement_1,side_1,herniated_content,yes_no_1,yes_no_2,type_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Uncomplicated Inguinal Hernia""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the defect (mm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the inguinal ring showing defect"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""herniated_content"",
+        ""value"": ""Content herniated through the inguinal ring"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_1"",
+        ""value"": ""Bowel loops are herniated?: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": {
+                ""additional_text"": ""Herniated bowel loops are normal in calibre and vascularity.""
+            },
+            ""no"": ""NA""
+        }
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""yes_no_2"",
+        ""value"": ""Extension of defect: "",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""yes"": [{
+                ""type"": ""input box"",
+                ""key"": ""type_1"",
+                ""value"": ""Defect extended to: "",
+                ""followup"": ""true"",
+                ""to_followup"": {
+                    ""type_1"": {
+                        ""additional_text"": ""Herniation extending up to _type_1.""
+                    }
+                }
+            }],
+            ""no"": ""NA""
+        }
+    }
+]
+"
+undescended / retractile testis,PROSTATE,_side_1 testis not visualized.,_side_1 testis is not visualized in hemiscrotum. Likely undescended / retractile testis. Suggested clinical correlation.,side_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Undescended / Retractile Testis""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the testis not visualized:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": {
+                ""additional_text"": ""Normal left testis in left hemiscrotum – showing maintained size, echotexture, and vascularity. Right testis is not visualized in right hemiscrotum. An ovoid hyperechoic focus is seen in the distal right inguinal canal – Likely undescended / retractile right testis.""
+            },
+            ""left"": {
+                ""additional_text"": ""Normal right testis in right hemiscrotum – showing maintained size, echotexture, and vascularity. Left testis is not visualized in left hemiscrotum. An ovoid hyperechoic focus is seen in the distal left inguinal canal – Likely undescended / retractile left testis.""
+            },
+            ""bilateral"": {
+                ""additional_text"": ""Both testis are not visualized in bilateral hemiscrotum. An ovoid hyperechoic focus is seen in the distal left and right inguinal canals – Likely undescended / retractile bilateral testis.""
+            }
+        }
+    }
+]
+"
+urachal cyst,OTHER,A well-defined cystic lesion measuring ~ _measurement_1 cm is seen at the _urachus_location showing no demonstrable intra-abdominal communication. No associated inflammatory changes.,A well-defined cystic lesion at the _urachus_location showing no evident intra-abdominal communication – ? Urachal cyst.,"measurement_1,urachus_location","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Urachal Cyst""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the cystic lesion (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""urachus_location"",
+        ""value"": ""Location of the cystic lesion in the urachus:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+ureteric calculus,KIDNEYS,"A  _side_1 ureteric calculus, ",_side_1 ureteric calculus resulting in upstream hydroureteronephrosis.,"side_1,measurement_1,location_1,level_1,measurement_2,location_2,level_2,yes_no_1,size_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Ureteric Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the ureteric calculus:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""location_1"",
+                    ""value"": ""Location of the calculus in the ureter:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydroureteronephrosis:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 mm is seen in _side_1 _location_1 ureter, resulting in upstream _level_1 hydroureteronephrosis.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""location_1"",
+                    ""value"": ""Location of the calculus in the ureter:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydroureteronephrosis:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 mm is seen in _side_1 _location_1 ureter, resulting in upstream _level_1 hydroureteronephrosis.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""level_1"",
+                    ""value"": ""Level of hydroureteronephrosis on bilateral side:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the right ureteric calculus (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""location_1"",
+                    ""value"": ""Location of the right ureteric calculus in the ureter:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""multiple choice"",
+                    ""key"": ""location_2"",
+                    ""value"": ""Location of the left ureteric calculus in the ureter:"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Measurement of the left ureteric calculus (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""measuring ~ _measurement_1 mm in right _location_1 ureter and ~ _measurement_2 mm in left _location_2 ureter, resulting in upstream _level_1 hydroureteronephrosis.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+urethral calculus,PROSTATE,A hyperechoic focus measuring ~ _measurement_1 mm is seen in _urethra prostatic urethra.,Urethral calculus as described.,"measurement_1,urethra","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Urethral Calculus""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the calculus (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""urethra"",
+        ""value"": ""Location in the urethra:"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+urinary bladder wall thickening,URINARY BLADDER,showing diffuse wall thickening (~ _measurement_1 mm).,Diffuse urinary bladder wall thickening – Likely reactionary.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Urinary Bladder Wall Thickening""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the bladder wall thickening (mm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+uterine fibroid,UTERUS,A well-defined heterogeneously hypoechoic lesion measuring ~ _measurement_1 cm is seen in _uterus_location.,_uterus_location uterine fibroid as described.,"measurement_1,uterus_location","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Uterine Fibroid""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the fibroid (cm): "",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""uterus_location"",
+        ""value"": ""Location of the uterine fibroid"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+vesical calculus,URINARY BLADDER,A calculus measuring ~ _measurement_1 cm is seen within.,Vesical calculus as described.,measurement_1,"[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Vesical Calculus""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""measurement_1"",
+        ""value"": ""Measurement of the calculus (cm):"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    }
+]
+"
+vuj calculus,URINARY BLADDER,A calculus noted in _side_1 VUJ.,_side_1 VUJ calculus resulting in upstream hydroureteronephrosis.,"side_1,measurement_1,measurement_2","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""VUJ Calculus""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""side_1"",
+        ""value"": ""Side of the kidney with the calculus:"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""right"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""A calculus measuring ~ _measurement_1 mm is seen corresponding to _side_1 VUJ.""
+                        }
+                    }
+                }
+            ],
+            ""left"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_1"": {
+                            ""additional_text"": ""A calculus measuring ~ _measurement_1 mm is seen corresponding to _side_1 VUJ.""
+                        }
+                    }
+                }
+            ],
+            ""bilateral"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_1"",
+                    ""value"": ""Measurement of the calculus in the right side (mm):"",
+                    ""followup"": ""false"",
+                    ""to_followup"": ""NA""
+                },
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""measurement_2"",
+                    ""value"": ""Measurement of the calculus in the left side (mm):"",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""measurement_2"": {
+                            ""additional_text"": ""A calculus measuring ~ _measurement_1 mm is seen corresponding to right VUJ. A calculus measuring ~ _measurement_2 mm is seen corresponding to left VUJ.""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
+cholangiocarcinoma,LIVER,"A well-defined homogeneously hypodense lesion, measuring ~_size_1 cm (CC x AP x TR), is seen in segment _segment_1 of the liver, showing delayed enhancement with capsular retraction. There is dilatation of the bile ducts distal to the mass.",Features are likely suggestive of <b>mass forming</b> cholangiocarcinoma.,"size_1,segment_1,infiltration,size_2,side_1","[
+    {
+        ""type"": ""heading"",
+        ""key"": """",
+        ""value"": ""Cholangiocarcinoma""
+    },
+    {
+        ""type"": ""input box"",
+        ""key"": ""size_1"",
+        ""place_holder"": ""false"",
+        ""value"": ""Size of the lesion (CC x AP x TR) (cm)"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""multiple choice"",
+        ""key"": ""segment_1"",
+        ""place_holder"": ""false"",
+        ""value"": ""Segment involved"",
+        ""followup"": ""false"",
+        ""to_followup"": ""NA""
+    },
+    {
+        ""type"": ""single choice"",
+        ""key"": ""infiltration"",
+        ""value"": ""Adjacent infiltration of cholangiocarcinoma :"",
+        ""followup"": ""true"",
+        ""to_followup"": {
+            ""Intraductal infiltration"": [
+                {
+                    ""type"": ""input box"",
+                    ""key"": ""size_2"",
+                    ""value"": ""Measurement of the mass lesion(cm): "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""size_2"": {
+                            ""additional_text"": ""Intraductal: There is dilatation of the duct with a polypoid hypoattenuating mass measuring  ~_size_2 cm (CC x AP x TR) showing heterogeneous contrast enhancement with upstream IHBRD.""
+                        }
+                    }
+                }
+            ],
+            ""Periductal infiltration"": [
+                {
+                    ""type"": ""single choice"",
+                    ""key"": ""side_1"",
+                    ""value"": ""Duct wall thickening extended side of the hepatic duct: "",
+                    ""followup"": ""true"",
+                    ""to_followup"": {
+                        ""right"": {
+                            ""additional_text"": ""Periductal infiltrating: Areas of heterogeneously enhancing duct wall thickening with associated luminal narrowing is seen at the hepatic hilum extending into the _side_1 hepatic duct with associated lobar IHBRD""
+                        },
+                        ""left"": {
+                            ""additional_text"": ""Periductal infiltrating: Areas of heterogeneously enhancing duct wall thickening with associated luminal narrowing is seen at the hepatic hilum extending into the _side_1 hepatic duct with associated lobar IHBRD""
+                        },
+                        ""bilateral"": {
+                            ""additional_text"": ""Periductal infiltrating: Areas of heterogeneously enhancing duct wall thickening with associated luminal narrowing is seen at the hepatic hilum extending into _side_1 hepatic duct with associated lobar IHBRD""
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]"
