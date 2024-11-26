@@ -1,0 +1,30 @@
+PATHOLOGIES,PLACEHOLDER,OBSERVATION,IMPRESSION
+bulky cervix,UTERUS,Cervix appears bulky in size and heterogeneous in echotexture.,Cervix appears bulky in size and heterogeneous in echotexture.
+bulky kidney,KIDNEYS,"Bulky _side_1 kidney with normal in echotexture.
+Right kidney measures ~ _measurement_1 cm.
+Left kidney measure ~ _measurement_2 cm.","Bulky _side_1 kidney with normal in echotexture.
+Right kidney measures ~ _measurement_1 cm.
+Left kidney measure ~ _measurement_2 cm."
+bulky ovary,OVARIES,"_side_1 ovary is visualized- normal in echotexture.
+Bulky _side_2 ovary.
+right ovary measures ~ _measurement_1 cm  Vol ~  _type_1 cc.
+left ovary measuring ~ _measurement_2 cm  Vol ~ _type_2 cc.","_side_1 ovary is visualized- normal in echotexture.
+Bulky _side_2 ovary.
+right ovary measures ~ _measurement_1 cm  Vol ~  _type_1 cc.
+left ovary measuring ~ _measurement_2 cm  Vol ~ _type_2 cc."
+bulky uterus,UTERUS,Bulky in size (~ _measurement_1 cm).,Bulky in size (~ _measurement_1 cm).
+calcified fibroid,UTERUS,A hyperechoic focus measuring ~ _measurement_1 mm is seen along _uterus_location – Likely calcified fibroid.,A hyperechoic focus measuring ~ _measurement_1 mm is seen along _uterus_location – Likely calcified fibroid.
+cholecystolithiasis,GALL BLADDER,_distended distended at the time of scan showing _no_of_1 calculus measuring ~ _measurement_1 mm within.,_distended distended at the time of scan showing _no_of_1 calculus measuring ~ _measurement_1 mm within.
+chronic cystitis,URINARY BLADDER,_distended showing diffuse wall thickening (~ _measurement_1 mm). _echos Internal echoes noted within.,_distended showing diffuse wall thickening (~ _measurement_1 mm). _echos Internal echoes noted within.
+chronic low grade pelvic inflammatory disease,OTHER,Minimal free fluid in pouch of Douglas.,Minimal free fluid in pouch of Douglas.
+coarse echotexture of liver,LIVER,_liver_size (~ _measurement_1 cm) with coarse echotexture.,_liver_size (~ _measurement_1 cm) with coarse echotexture.
+collaterals,PORTAL VEIN,Few _collateral collaterals noted.,Few _collateral collaterals noted.
+complex renal cortical cyst,KIDNEYS,complex renal cortical cyst noted in _side_1 kidney.,complex renal cortical cyst noted in _side_1 kidney.
+corpora amylacea calcifications,PROSTATE,Corpora amylacea calcifications noted.,Corpora amylacea calcifications noted.
+cortical calcification,KIDNEYS,Cortical calcification is seen in _side_1 kidney.,Cortical calcification is seen in _side_1 kidney.
+cystitis,URINARY BLADDER,_distended showing diffuse bladder wall thickening (~ _measurement_1 mm).,_distended showing diffuse bladder wall thickening (~ _measurement_1 mm).
+diffuse adenomyosis,UTERUS,Bulky in size measuring ~ _measurement_1 cm showing diffuse heterogeneous echotexture with blurring of junctional zone.,Bulky in size measuring ~ _measurement_1 cm showing diffuse heterogeneous echotexture with blurring of junctional zone.
+dilated portal vein,PORTAL VEIN,Normal in course and dilated in calibre (~ _measurement_1 mm) – Shows maintained hepato-petal flow.,Normal in course and dilated in calibre (~ _measurement_1 mm) – Shows maintained hepato-petal flow.
+dj stent,URINARY BLADDER,DJ stent is seen on the _side_1 side.,DJ stent is seen on the _side_1 side.
+dominant follicle,OVARIES,A well-defined cystic lesion arising from _side_1 ovary ,A well-defined cystic lesion arising from _side_1 ovary 
+early inguinal hernia,OTHER,Mild prominence of _side_1 superfical inguinal ring with tranisent herniation of _herniated_content on cough impulse,Mild prominence of _side_1 superfical inguinal ring with tranisent herniation of _herniated_content on cough impulse
