@@ -24,7 +24,7 @@ except Exception as e:
 
 try:
     # Load the CSV file into a DataFrame
-    data = pd.read_csv("template.csv")
+    data = pd.read_csv("template_1.csv")
     pathology_list = []
 except Exception as e:
     print(f"CSV not loaded: {e}")
@@ -41,7 +41,7 @@ try:
         placeholder = row['placeholder']
 
         # Get the finding_id from the 'Findings' table based on the finding text
-        cur.execute("SELECT id FROM bionic_data.findings WHERE finding_text = %s", (finding_name,))
+        cur.execute("SELECT id FROM bionic_data.findings WHERE finding_text = %s and template_fk =2 and study_fk=1", (finding_name,))
         finding_id_result = cur.fetchone()
         if finding_id_result:
             finding_id = finding_id_result[0]
@@ -50,7 +50,7 @@ try:
             continue
 
         # Get the template_id based on the placeholder
-        cur.execute("SELECT id FROM bionic_data.templates WHERE template_name = 'template_1'", )
+        cur.execute("SELECT id FROM bionic_data.templates WHERE template_name = 'template_2'", )
         template_id_result = cur.fetchone()
         if template_id_result:
             template_id = template_id_result[0]
@@ -61,7 +61,7 @@ try:
         # Get the pathology_id for the corresponding pathology
         for column in row.index[4:]:  # Assuming columns after 'findings' and 'placeholder' are pathologies
             pathology_name = column
-            cur.execute("SELECT id FROM bionic_data.pathology WHERE pathology = %s", (pathology_name,))
+            cur.execute("SELECT id FROM bionic_data.pathologies WHERE pathology = %s and study_fk=1", (pathology_name,))
             pathology_id_result = cur.fetchone()
             if pathology_id_result:
                 pathology_id = pathology_id_result[0]
@@ -70,7 +70,7 @@ try:
                 continue
 
             # Check if the pathology is present for the finding, set to None if not present
-            is_present = row[column] if not pd.isna(row[column]) else None
+            is_present = row[column] if not pd.isna(row[column]) else 'no'
             created_at = updated_at = datetime.now()
 
             # Insert the mapping into the 'findingpathologymapping' table
