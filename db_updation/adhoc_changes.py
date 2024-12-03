@@ -11,10 +11,10 @@ load_dotenv()
 # Database connection
 try:
     conn = psycopg2.connect(
-        database="ai", 
-        user="aiadmin", 
-        host="ai-service.postgres.database.azure.com", 
-        password="Kannausepannu@", 
+        database="", 
+        user="", 
+        host="", 
+        password="", 
         port= 5432
     )
     print("Database connection success")

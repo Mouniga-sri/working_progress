@@ -11,10 +11,10 @@ load_dotenv()
 # Database connection
 try:
     conn = psycopg2.connect(
-        database="ai", 
-        user="aiadmin", 
-        host="ai-service.postgres.database.azure.com", 
-        password="Kannausepannu@", 
+        database="", 
+        user="", 
+        host="", 
+        password="", 
         port= 5432
     )
     print("Database connection success")
@@ -23,7 +23,7 @@ except Exception as e:
     exit()
 
 try:
-    data = pd.read_csv("template_1.csv")
+    data = pd.read_csv("template2.csv")
 except Exception as e:
     print(f"csv not loaded : {e}")
     conn.close()
@@ -31,7 +31,7 @@ except Exception as e:
 
 try:
     cur = conn.cursor()
-    template_name = "template_2"
+    template_name = "template_3"
     created_at=updated_at = datetime.now()
 
     cur.execute("""

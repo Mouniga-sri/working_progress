@@ -11,10 +11,10 @@ load_dotenv()
 # Database connection
 try:
     conn = psycopg2.connect(
-        database="ai", 
-        user="aiadmin", 
-        host="ai-service.postgres.database.azure.com", 
-        password="Kannausepannu@", 
+        database="", 
+        user="", 
+        host="", 
+        password="", 
         port= 5432
     )
     print("Database connection success")
@@ -23,7 +23,7 @@ except Exception as e:
     exit()
 
 try:
-    data = pd.read_csv("template_1.csv")
+    data = pd.read_csv("template2.csv")
 except Exception as e:
     print(f"csv not loaded : {e}")
     conn.close()
@@ -37,7 +37,7 @@ try:
         created_at = updated_at = datetime.now()
 
         cur.execute("""
-select * from bionic_data.findings f where f.finding_text = %s and f.study_fk = 1 and f.template_fk = 1 """,(finding_text,))
+select * from bionic_data.findings f where f.finding_text = %s and f.study_fk = 1 and f.template_fk = 3 """,(finding_text,))
         exist = cur.fetchone()
         
         if exist:
@@ -47,14 +47,14 @@ select * from bionic_data.findings f where f.finding_text = %s and f.study_fk = 
                 SET
                     placeholder = %s,
                     updated_at = %s
-                WHERE finding_text = %s and study_fk=1 and template_fk =1
+                WHERE finding_text = %s and study_fk=1 and template_fk =3
             """, (placeholder, updated_at, finding_text))
         else:
             cur.execute("""
                 INSERT INTO bionic_data.findings 
                 (template_fk, study_fk, finding_text, placeholder, created_at, updated_at)
                 VALUES (
-                    (select id from bionic_data.templates t where t.template_name = 'template_2' and t.study_fk = 1),
+                    (select id from bionic_data.templates t where t.template_name = 'template_3' and t.study_fk = 1),
                     (SELECT id FROM bionic_data.studies s WHERE s.name = 'usg abdomen and pelvis'),
                     %s, %s, %s,%s
                 )""", (finding_text,placeholder, created_at, updated_at))

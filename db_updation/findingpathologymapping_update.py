@@ -11,10 +11,10 @@ load_dotenv()
 # Database connection
 try:
     conn = psycopg2.connect(
-        database="ai", 
-        user="aiadmin", 
-        host="ai-service.postgres.database.azure.com", 
-        password="Kannausepannu@", 
+        database="", 
+        user="", 
+        host="", 
+        password="", 
         port= 5432
     )
     print("Database connection success")
@@ -24,7 +24,7 @@ except Exception as e:
 
 try:
     # Load the CSV file into a DataFrame
-    data = pd.read_csv("template_1.csv")
+    data = pd.read_csv("template2.csv")
     pathology_list = []
 except Exception as e:
     print(f"CSV not loaded: {e}")
@@ -41,7 +41,7 @@ try:
         placeholder = row['placeholder']
 
         # Get the finding_id from the 'Findings' table based on the finding text
-        cur.execute("SELECT id FROM bionic_data.findings WHERE finding_text = %s and template_fk =2 and study_fk=1", (finding_name,))
+        cur.execute("SELECT id FROM bionic_data.findings WHERE finding_text = %s and template_fk =3 and study_fk=1", (finding_name,))
         finding_id_result = cur.fetchone()
         if finding_id_result:
             finding_id = finding_id_result[0]
@@ -50,7 +50,7 @@ try:
             continue
 
         # Get the template_id based on the placeholder
-        cur.execute("SELECT id FROM bionic_data.templates WHERE template_name = 'template_2'", )
+        cur.execute("SELECT id FROM bionic_data.templates WHERE template_name = 'template_3'", )
         template_id_result = cur.fetchone()
         if template_id_result:
             template_id = template_id_result[0]
